@@ -1,0 +1,172 @@
+planner	Handbuch; Kalender
+rule	Regel
+lunch	Mittagessen
+cafeteria	Cafeteria
+money	Geld
+machine	Automat; Maschine; Apparat; Gerät
+to pay (for)	bezahlen
+finger	Finger
+art	Kunst Kunstunterricht
+to buy	kaufen
+sweets (pl)	Süßigkeiten; Bonbons
+shop	Geschäft; Laden
+pen	Füller
+pencil	Bleistift; Buntstift
+pencil case	Federmäppchen; Mäppchen
+exercise book	Übungsheft
+ruler	Lineal
+rubber	Radiergummi
+uniform	Uniform
+recording studio	Aufnahmestudio; Tonstudio
+classroom	Klassenzimmer
+to have got	besitzen; haben
+question	Frage
+an	ein/-e
+to stare	starren; anstarren
+rude	unhöflich; unverschämt
+funny	lustig; witzig
+to sit	sitzen
+to use	benutzen; verwenden; gebrauchen
+lunch break	Mittagspause
+them	sie (Pl.); ihnen
+more	mehr; weitere
+to forget	vergessen
+knife, knives (pl)	Messer
+fork	Gabel
+spoon	Löffel
+to run	rennen; laufen
+a.m.	vormittags (Uhrzeit); morgens (Uhrzeit)
+p.m.	nachmittags (Uhrzeit); abends (Uhrzeit)
+still	noch; immer noch
+dog-tired	hundemüde
+tired	müde
+Time to get up!	Es ist Zeit aufzustehen!
+I’m on my way	…Ich bin auf dem Weg …; Ich bin unterwegs …
+usually	normalerweise; gewöhnlich; meistens
+subject	Betreff (in E-Mails etc.); Thema
+never	nie; niemals
+every	jede/-r/-s
+morning	Morgen; Vormittag
+stepmum	Stiefmutter
+then	dann; danach
+if	wenn; falls; ob
+till	bis
+after that	danach
+on Mondays	montags
+netball	Korball
+other	anders; andere/-r/-s; weitere
+home	nach Hause
+right away	sofort; gleich
+to tidy (a room)	aufräumen; in Ordnung bringen
+in the evenings	abends
+evening	Abend
+afternoon	Nachmittag
+whole	ganz
+greeting	Gruß
+e.g. (= for example)	z.B. (= zum Beispiel)
+bye	tschüss
+abbreviation	Abkürzung
+information (no pl.)	Information; Informationen
+emoji	Emoji
+weekday	Wochentag
+swimming	Schwimmen
+singing	Gesang; Singen
+dancing	Tanz
+to organise	organisieren
+spring break	Frühlingsferien
+song	Song; Lied
+coach	Trainer/-in
+dinner	Abendessen
+dance move	Tanzschritt
+to talk about	sprechen über; erzählen von
+to go to bed	ins Bett gehen
+last	letzte/-r/-s
+She gets on my nerves.	Sie geht mir auf die Nerven.
+granny	Oma; Omi
+to look after	aufpassen auf; hüten; sich kümmern um
+to look	schauen; sehen; aussehen
+to ask	fragen; bitten
+to talk	sprechen; reden
+together	zusammen; miteinander; gemeinsam
+test	Test; Klassenarbeit; Prüfung
+today	heute
+schoolbag	Schultasche
+tutor	Klassenlehrer/-in
+tutor group	Klasse (in einer englischen Schule)
+Good morning.	Guten Morgen.
+everyone	jeder;alle
+to call	nennen
+him	ihn; ihm
+no	kein/-e
+to sing	singen
+to dance	tanzen
+project	Projekt
+well	tja; nun
+something	etwas
+Wait and see!	Warte ab!
+to look at	anschauen; ansehen
+silly	dumm; doof; albern
+teacher	Lehrer/-in
+office	Büro
+job	Arbeit; Aufgabe; Job
+grandparents (pl)	Großeltern
+talent show	Talentwettbewerb
+to text	eine SMS schicken
+food	Essen; Lebensmittel
+carrot	Karotte; Möhre
+pudding	Pudding; Nachtisch
+restaurant	Restaurant; Gaststätte
+to help	helfen
+pocket money	Taschengeld
+to shout	schreien; rufen
+polite	höflich
+to put away	wegstellen; weglegen
+tray	Tablett
+to be late	zu spät dran sein; zu spät kommen
+to wear	anhaben; tragen (Kleidung)
+to bring	bringen; mitbringen
+building	Gebäude
+homework	Hausaufgabe(n)
+into in;	in … hinein
+alone	allein; ohne fremde Hilfe
+dream	Traum; Traum-
+lesson	Unterrichtsstunde; Schulstunde; Unterricht
+far away	weit weg
+these	diese (hier)
+those	diese dort; jene
+over there	da drüben; dort drüben; nach dort drüben
+to think	finden (= der Meinung sein);denken; nachdenken; glauben
+best	am besten
+because	weil; da
+to play a trick (on)	einen Streich spielen
+week	Woche
+before	vor (zeitlich); bevor
+to work	arbeiten
+group	Gruppe; Klasse
+in pairs	zu zweit; mit einem Partner/einer Partnerin
+audio	Audio-; Hör-
+presentation	Präsentation; Vortrag
+recording	Aufnahme; Aufzeichnung
+poem	Gedicht
+sure	sicher
+voice	Stimme
+next	nächste/-r/-s; der/die Nächste(n)
+jealous	eifersüchtig; neidisch
+already	schon; bereits
+popular	beliebt; populär
+king	König
+Come on!	Komm schon!; Komm jetzt!
+a few	ein paar; wenige; einige
+minute	Minute
+by (bike)	mit (dem Fahrrad)
+to sit down	sich hinsetzen; sich setzen
+to have breakfast	frühstücken
+often	oft; häufig
+to start	anfangen; beginnen; starten
+too	zu
+early	früh
+to practise	üben; trainieren
+saxophone	Saxofon
+sometimes	manchmal
+story, stories (pl)	Story; Geschichte; Erzählung
+at 7:15	um Viertel nach sieben

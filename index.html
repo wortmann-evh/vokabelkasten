@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digitaler Vokabelkasten</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Digitaler Vokabelkasten</h1>
+    <div id="miniStatus" class="mini-status" aria-live="polite"></div>
+  </header>
+
+  <main class="container">
+    <!-- STARTSCREEN -->
+    <section id="screenStart" class="card screen">
+      <h2>Start</h2>
+
+      <div class="grid">
+        <label class="field">
+          <span>Name</span>
+          <input id="playerName" type="text" placeholder="z.B. Mia" maxlength="20" />
+        </label>
+
+        <label class="field">
+          <span>Abfragerichtung</span>
+          <select id="modeSelect">
+            <option value="DE_EN">Deutsch → Englisch</option>
+            <option value="EN_DE">Englisch → Deutsch</option>
+            <option value="RANDOM">Zufall</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>Schwierigkeit (Zeit)</span>
+          <select id="difficultySelect">
+            <option value="EASY">Leicht (15s)</option>
+            <option value="MEDIUM" selected>Mittel (10s)</option>
+            <option value="HARD">Schwer (5s)</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="row">
+        <button id="btnStart" class="btn primary">Start</button>
+        <button id="btnReload" class="btn">Vokabeln neu laden</button>
+      </div>
+
+      <p class="hint">
+        Vokabeln werden aus <code>data/vocab.txt</code> geladen (Englisch TAB Deutsch).
+      </p>
+
+      <div id="loadInfo" class="info"></div>
+    </section>
+
+    <!-- GAMESCREEN -->
+    <section id="screenGame" class="screen hidden">
+      <div class="hud">
+        <div class="hud-left">
+          <div><strong id="hudName"></strong></div>
+          <div class="small" id="hudMode"></div>
+          <div class="small" id="hudDifficulty"></div>
+        </div>
+
+        <div class="hud-center">
+          <div class="progress">
+            <div class="small">Timer</div>
+            <div id="timerText" class="timer">—</div>
+          </div>
+        </div>
+
+        <div class="hud-right">
+          <div class="small">Runde: <strong id="hudRound">0</strong></div>
+          <div class="small">Richtig: <strong id="hudCorrect">0</strong></div>
+          <div class="small">Falsch: <strong id="hudWrong">0</strong></div>
+        </div>
+      </div>
+
+      <div class="stackbar">
+        <span>Stapel 1: <strong id="s1Count">0</strong></span>
+        <span>Stapel 2: <strong id="s2Count">0</strong></span>
+        <span>Stapel 3: <strong id="s3Count">0</strong></span>
+        <span class="muted">|</span>
+        <span class="small">Jede 10. Karte: aus Stapel 2 (wenn vorhanden)</span>
+      </div>
+
+      <div class="flip-wrap">
+        <div id="flipCard" class="flip-card" tabindex="0" aria-label="Vokabelkarte">
+          <div class="flip-inner">
+            <div class="flip-face flip-front">
+              <div class="label">Frage</div>
+              <div id="questionText" class="word">—</div>
+            </div>
+            <div class="flip-face flip-back">
+              <div class="label">Antwort</div>
+              <div id="answerText" class="word">—</div>
+              <div id="pairText" class="pair">—</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row center">
+        <button id="btnFlip" class="btn">Umdrehen</button>
+      </div>
+
+      <div id="answerButtons" class="row center hidden">
+        <button id="btnCorrect" class="btn good">✅ Richtig</button>
+        <button id="btnAlmost" class="btn warn">🤔 Knapp</button>
+        <button id="btnWrong" class="btn bad">❌ Falsch</button>
+      </div>
+
+      <div class="row center">
+        <button id="btnEnd" class="btn">Beenden</button>
+      </div>
+    </section>
+
+    <!-- ENDSCREEN -->
+    <section id="screenEnd" class="card screen hidden">
+      <h2 id="endTitle">Fertig!</h2>
+      <p id="endText" class="big">—</p>
+
+      <div class="stats">
+        <div class="stat">
+          <div class="small">Runden</div>
+          <div class="num" id="statRounds">0</div>
+        </div>
+        <div class="stat">
+          <div class="small">Richtig</div>
+          <div class="num" id="statCorrect">0</div>
+        </div>
+        <div class="stat">
+          <div class="small">Falsch</div>
+          <div class="num" id="statWrong">0</div>
+        </div>
+        <div class="stat">
+          <div class="small">Quote</div>
+          <div class="num" id="statRate">0%</div>
+        </div>
+      </div>
+
+      <h3>Schwierigste Wörter (heute am häufigsten falsch)</h3>
+      <ol id="hardestList" class="hardest"></ol>
+
+      <div class="row">
+        <button id="btnRestart" class="btn primary">Neustart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span class="small muted">HTML / CSS / JavaScript • Vokabeln aus <code>vocab.txt</code></span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
