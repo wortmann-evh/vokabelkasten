@@ -367,7 +367,7 @@ async function loadVocab(){
     return true;
   } catch(err){
     setLoadInfo(
-      "❌ Konnte vocab.txt nicht laden. Tipp: Projekt über NetBeans/Server starten oder GitHub Pages verwenden.",
+      "❌ Konnte vocab.txt nicht laden.",
       false
     );
     console.error(err);
